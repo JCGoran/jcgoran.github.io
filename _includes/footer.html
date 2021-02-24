@@ -18,6 +18,9 @@
             {%- if site.email -%}
             <li>Contact: {{ site.email }}</li>
             {%- endif -%}
+            {%- if site.license -%}
+            <li>Distributed under {{ site.license }}</li>
+            {%- endif -%}
         </ul>
       </div>
 
