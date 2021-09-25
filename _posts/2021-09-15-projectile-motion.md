@@ -4,7 +4,7 @@ title: "Projectile motion: what is the longest trajectory?"
 tags: physics
 mathjax: true
 ---
-{% include mathjax.html %}
+{% include mathjax_nlb.html %}
 
 <style type="text/css">
 kbd.key {
@@ -26,6 +26,10 @@ img + em {
 }
 p {
   page-break-inside: avoid;
+}
+.MathJax_Display, .MJXc-display, .MathJax_SVG_Display {
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 </style>
 
