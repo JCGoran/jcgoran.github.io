@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dynamically listing writable properties in Python
-tags: programming, python
+tags: programming python
 mathjax: true
 ---
 {% include mathjax.html %}
