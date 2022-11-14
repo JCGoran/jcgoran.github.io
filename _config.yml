@@ -45,6 +45,7 @@ plugins:
   - jekyll-paginate
   - jekyll-spaceship
 
+translate_langs: []
 
 # Exclude from processing.
 # The following items will not be processed, by default.
