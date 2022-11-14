@@ -3,12 +3,23 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Homepage
 layout: home
+heading: 'Writings by Goran'
+subheading: 'Blog about physics, programming, and, occasionally, other matters.'
+banner: '/assets/banner_nebula_small.jpg'
 ---
 
-## Goran Jelic-Cizmek
+<style>
+.page-content{
+    padding-top: 3em;
+    padding-bottom: 0;
+}
+</style>
 
-I'm a researcher in cosmology, currently working at the [University of Geneva][unige].
+## Welcome to my blog!
 
-Occasionally I'll write something here.
+I'm a postdoctoral researcher in cosmology, currently working at the [University of Geneva][unige].
+
+<p style="margin-bottom:3em;">Occasionally I'll write something here.</p>
+
 
 [unige]: https://cosmology.unige.ch/

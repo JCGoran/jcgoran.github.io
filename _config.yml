@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -18,24 +18,33 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: et al.
+title: Goran et al.
 author: Goran Jelic-Cizmek
-email: jcgoran (at) protonmail.com
+email: jcgoran@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blog about physics, programming, and, occasionally, other matters.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+favicon: "favicon.ico"
 github_url: "https://jcgoran.github.io"
-github_username:  JCGoran
+github_username: JCGoran
 license: CC-BY-SA 4.0
+license_link: "https://creativecommons.org/licenses/by-sa/4.0/"
+copyright: "(c) 2021-{currentYear} {author} (<a href=\"mailto:{email}\">contact</a>)<div>Distributed under <a href=\"{license_link}\">{license}</a></div>"
 
 kramdown:
   parse_block_html: true
-
+yat:
+  date_format: "%d %b %Y"
 # Build settings
-theme: minima
+theme: jekyll-theme-yat
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-spaceship
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
