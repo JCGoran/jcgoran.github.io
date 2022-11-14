@@ -14,6 +14,9 @@ p {
     overflow-x: auto;
     overflow-y: hidden;
 }
+.post-menu .post-menu-content ul a {
+    display: inline;
+}
 </style>
 
 One of the things you learn may have learned in your undergrad studies (or sometimes in high school) is the formula for the sum of first $n$ numbers is given by:
