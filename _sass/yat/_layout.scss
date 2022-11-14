@@ -500,6 +500,7 @@ html {
 
   a {
     @include relative-font-size(1.125);
+    line-height: 1.3em;
     color: #666;
     max-width: 50%;
   }
