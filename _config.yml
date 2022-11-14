@@ -37,7 +37,7 @@ kramdown:
 yat:
   date_format: "%d %b %Y"
 # Build settings
-theme: jekyll-theme-yat
+#theme: jekyll-theme-yat
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
