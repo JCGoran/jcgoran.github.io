@@ -5,9 +5,17 @@ tags: bash scripting
 mathjax: false
 ---
 {% include mathjax.html %}
+<style>
+.post .post-header {
+    margin: 50px auto 40px;
+    padding: 0 0 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+</style>
 
+_Note: the below solution should actually work on all POSIX-compatible shells (including Bash and Zsh)._
 
-### The problem
+<h3 style="margin: 40px auto 20px;">The problem</h3>
 
 Let's say we have a piece of text that looks like this:
 
@@ -81,7 +89,7 @@ s='		some string  '
 
 size_before=${#s}
 size_after=0
-while [[ ${size_before} -ne ${size_after} ]]
+while [ ${size_before} -ne ${size_after} ]
 do
 	size_before=${#s}
 	s="${s#[[:space:]]}"
