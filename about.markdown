@@ -34,7 +34,7 @@ and
 <h3 style="display:flex;align-items:center;">
 Research
 <a href="https://arxiv.org/search/?searchtype=author&query=Jelic-Cizmek%2C+G">
-<img src="assets/2pcf.png" alt="2-point correlation function" title="Click here for my articles on arXiv!" style="height:2em;display:inline;margin:0 5px 0 5px">
+<img src="assets/2pcf.png" alt="2-point correlation function" title="Click here to see my articles on arXiv!" style="height:2em;display:inline;margin:0 5px 0 5px">
 </a>
 </h3>
 
@@ -49,7 +49,7 @@ Author and maintainer of [COFFE][coffe].
 <h3 style="display:flex;align-items:center;">
 Fautor
 <a href="https://fautor.org">
-<img src="assets/fautor.png" alt="Fautor logo" title="Logo of Fautor" style="height:2em;display:inline;margin:0 5px 0 5px">
+<img src="assets/fautor.png" alt="Fautor logo" title="Click here to be taken to the Fautor website!" style="height:2em;display:inline;margin:0 5px 0 5px">
 </a>
 </h3>
 
