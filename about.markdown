@@ -39,6 +39,7 @@ Research
 </h3>
 
 My current research focus is studying the impact of relativistic effects on large scale structure, nonlinear structure formation using numerical methods, and making forecasts for the [_Euclid_ mission][euclid].
+Some of my publications are listed on the [publications](/publications.html) page.
 
 <h3 style="display:flex;align-items:center;">
 Programming
