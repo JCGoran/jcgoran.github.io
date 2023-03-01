@@ -45,7 +45,14 @@ Some of my publications are listed on the [publications](/publications.html) pag
 Programming
 </h3>
 
-Author and maintainer of [COFFE][coffe].
+#### COFFE
+
+Author and maintainer of [COFFE][coffe], a C code with a Cython wrapper for computing the relativistic 2-point correlation function of galaxy number counts.
+
+#### FITK
+
+Author and maintainer of [FITK][fitk], the Fisher Information ToolKit, a pure-Python package for computing, analyzing, and plotting Fisher information matrices.
+
 
 <h3 style="display:flex;align-items:center;">
 Fautor
@@ -59,4 +66,5 @@ I am a co-founder and main backend developer at [Fautor][fautor.org], a non-prof
 [unige]: https://cosmology.unige.ch/
 [euclid]: https://sci.esa.int/web/euclid
 [coffe]: https://github.com/JCGoran/coffe
+[fitk]: https://github.com/JCGoran/fitk
 [fautor.org]: https://fautor.org
