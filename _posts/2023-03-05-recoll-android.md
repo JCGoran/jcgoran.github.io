@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Running recoll on Android
-tags: software recoll android termux
+tags: software programming recoll android termux
 ---
 <style>
 .page-content {
