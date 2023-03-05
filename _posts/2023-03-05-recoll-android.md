@@ -13,6 +13,10 @@ line-height: 1.7em;
 margin: 30px 0 19px;
 }
 
+pre, code {
+  line-height: 1em;
+}
+
 kbd.key {
   border-radius: 3px;
   padding: 1px 2px 0;
@@ -39,6 +43,9 @@ _If you just want to skip to the TL;DR version of running recoll on Android, cli
 I have used the [recoll][recoll-wiki] information retrieval software for quite some time now for searching through my ever-growing collection of documents (mainly PDF and DJVU files) on the desktop, and it has proven to be quite reliable in quickly finding a paper or book which contains a certain phrase.
 Ever since I got my Android-powered e-ink reader, I wanted to replicate the same workflow as I have on my desktop, but sadly, recoll was not available for Android...until now!
 
+<img src="/assets/recoll_webui_screenshot.png" class="center" width="100%">
+_Recoll running in the [EinkBro][einkbro] browser_
+
 Thanks to the valuable [contributions][recoll-termux] by various users and developers, recoll is now available as a package on [termux][termux-wiki], the terminal emulator for Android, and works more-or-less the same way as its CLI desktop counterpart.
 
 As recoll also provides a [web frontend][recoll-webui], below I will describe in detail how one can get it to work on Android devices.
@@ -56,7 +63,7 @@ Note that you may need to enable installation from "unknown sources" to successf
 ### Termux
 
 As mentioned earlier, termux is a terminal emulator for devices running Android, which brings a lot of the command-line functionality found on Linux to Android.
-To install termux, open the f-droid app, click on the find button (🔍 icon), search for "termux", and finally click on the "Install" button (⭳ icon).
+To install termux, open the f-droid app, click on the find button (🔍 icon), search for "termux", and finally click on the "Install" button (<img src="/assets/fdroid_install.png" style="display:inline;height:1em;"> icon).
 
 After the installation, open up the termux app, and write `pkg upgrade -y`, followed by <kbd class="key">Enter</kbd> (or <kbd class="key">⏎</kbd>) on the virtual keyboard to update all of the currently-installed packages on termux.
 Recoll, along with its Python interface, can then be installed by running `pkg install recoll-python`.
@@ -186,11 +193,6 @@ after which you can switch to your web browser app, and navigate to the address 
 
 The UI can be stopped by pressing the <kbd class="key">Ctrl</kbd> key, followed by the <kbd class="key">C</kbd> key on the on-screen keyboard.
 
-Below is an example of the web UI running on my Onyx Note 3.
-
-<img src="/assets/recoll_webui_screenshot.png" class="center" width="80%">
-_The Recoll web UI running in the [EinkBro][einkbro] browser_
-
 ## Troubleshooting
 
 ### Python reports `no module named recoll`
@@ -227,7 +229,7 @@ According to the developers, this is completely harmless ([source][waitress-reso
 
 - install [f-droid][fdroid-page] on your device
 - update the f-droid repositories (go to the "Updates" tab and swipe down)
-- find (using the 🔍 icon) and install the termux app (using the ⭳ icon)
+- find (using the 🔍 icon) and install the termux app (using the <img src="/assets/fdroid_install.png" style="display:inline;height:1em;"> icon)
 - open the termux app
 - update the packages on termux by running: `pkg upgrade -y`
 - install the recoll package and its common plugins on termux by running: `pkg install -y recoll-python aspell-en poppler djvulibre ghostscript exiftool perl`
