@@ -13,6 +13,16 @@ banner: '/assets/banner_nebula_small.jpg'
     padding-top: 3em;
     padding-bottom: 0;
 }
+.post-tags{
+    line-height: 2em;
+}
+.post-tag{
+    white-space: nowrap;
+}
+.post-tags a{
+    line-height: 1.3em;
+    display: inline-block;
+}
 </style>
 
 ## Welcome to my blog!
