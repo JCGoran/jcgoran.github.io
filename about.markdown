@@ -26,7 +26,7 @@ You can also find me on
 <a href="https://www.linkedin.com/in/goran-cizmek/">LinkedIn</a>,
 and
 <img src="assets/mastodon.svg" alt="Mastodon logo" style="height:1em;display:inline">
-<a href="https://tooting.ch/@jcgoran">Mastodon</a>.
+<a rel="me" href="https://tooting.ch/@jcgoran">Mastodon</a>.
 
 
 ## Projects
