@@ -16,7 +16,8 @@ margin: 30px 0 19px;
 
 ## About me
 
-I'm a postdoctoral researcher in cosmology at the [University of Geneva][unige].
+I'm currently working as a [HPC][hpc-wiki] software engineer at EPFL's [Blue Brain Project][bbp].
+Previously I was a postdoctoral researcher in cosmology at the [University of Geneva][unige].
 I enjoy working with computers, climbing stuff indoors, and attempting to play the guitar.
 
 You can also find me on
@@ -68,3 +69,5 @@ I am a co-founder and main backend developer at [Fautor][fautor.org], a non-prof
 [coffe]: https://github.com/JCGoran/coffe
 [fitk]: https://github.com/JCGoran/fitk
 [fautor.org]: https://fautor.org
+[bbp]: https://www.epfl.ch/research/domains/bluebrain/
+[hpc-wiki]: https://en.wikipedia.org/wiki/High-performance_computing
