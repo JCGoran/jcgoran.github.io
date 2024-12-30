@@ -10,7 +10,7 @@ banner: '/assets/banner_nebula_small.jpg'
 
 <style>
 .page-content{
-    padding-top: 3em;
+    padding-top: 1em;
     padding-bottom: 0;
 }
 .post-tags{
@@ -27,9 +27,11 @@ banner: '/assets/banner_nebula_small.jpg'
 
 ## Welcome to my blog!
 
-I'm a postdoctoral researcher in cosmology, currently working at the [University of Geneva][unige].
+I'm an HPC software engineer, currently working at [EPFL][epfl] on improving C++ and Python-based neuroscience simulation software.
+Previously I worked as a physicist at the [Univeristy of Geneva][unige].
 
 <p style="margin-bottom:3em;">Occasionally I'll write something here.</p>
 
 
+[epfl]: https://www.epfl.ch/labs/markram-lab/
 [unige]: https://cosmology.unige.ch/

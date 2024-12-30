@@ -16,7 +16,7 @@ margin: 30px 0 19px;
 
 ## About me
 
-I'm currently working as a [HPC][hpc-wiki] software engineer at EPFL's [Blue Brain Project][bbp].
+I'm currently working as a [HPC][hpc-wiki] software engineer at [EPFL][epfl] (formerly [Blue Brain Project][bbp]).
 Previously I was a postdoctoral researcher in cosmology at the [University of Geneva][unige].
 I enjoy working with computers, climbing stuff indoors, and attempting to play the guitar.
 
@@ -64,6 +64,7 @@ Fautor
 
 I am a co-founder and main backend developer at [Fautor][fautor.org], a non-profit association and platform for promoting research and outreach.
 
+[epfl]: https://www.epfl.ch/labs/markram-lab/
 [unige]: https://cosmology.unige.ch/
 [euclid]: https://sci.esa.int/web/euclid
 [coffe]: https://github.com/JCGoran/coffe
